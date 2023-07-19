@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.efeito:hover{
+	-xpedu-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.borde:hover{
+	border-bottom: 2px solid #fcb627;
+}
+
+.rigth{
+	float: right;
+}
+.left{
+	float:left;
+}
+
+.clear {
+    clear: both;
+}
+
+.banner{
+	width: 100%;
+	height: 150px;
+	background-size: cover;
+	background-image: url(../Images/FundoBeiraMar.png);
+}
+
+.banner img{
+	max-height: 130px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.banner .desktop{
+	float: right;
+	margin-top: 100px;
+	margin-right: 70px;
+}
+
+nav.desktop ul {
+    list-style-type: none;
+}
+
+nav.desktop li {
+    font-size: 30px;
+    padding: 0 40px;
+    display: inline-block;
+    color: #fcb627;
+}
+
+nav.desktop a {
+    text-decoration: none;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fcb627;
+}
+
+.pesquisa{
+	margin: 50px 50px 50px 0;
+	align-items: center;
+}
+
+.pesquisa form{
+	float: right;
+}
+.pesquisa select{
+	padding: 5px;
+	width:  200px;
+
+}
+
+.pesquisa button{
+	border: none;
+	padding: 5px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #fcb627;
+}
+
+.comidas .titulo{
+	color: #f0bd36;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+.comidas .titulo h1{
+	font-size: 40px;
+	font-weight: 50px;
+}
+.comidas .titulo img{
+	margin-top: 10px;
+	max-height: 30px;
+}
+.opcoes{
+	width: 100%;
+	margin-top: 30px;
+    align-content: center;
+   	display: flex;
+   	flex-wrap: wrap;
+   	justify-content: space-around;
+   	gap: 50px 30px;
+
+}
+
+.opcoes .item{
+	
+	max-width: 25%;
+	padding: 20px;
+	border-bottom: 1px solid gray;
+	
+}
+.opcoes img{
+	float: left;
+}
+.opcoes h2{
+	color: #fcb627;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.opcoes p{
+	float: right;
+	max-width: 170px;
+	margin-left: 20px;
+}
+
+footer{
+	margin-top: 100px;
+	padding: 50px 50px 20px 50px;
+	width: 100%;
+	background-color: #129a9e;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+.forms{
+	margin-bottom: 50px;
+	margin-left: 100px;
+	float: left;
+	width: 40%;
+
+}
+.map iframe{
+	float: right;
+}
+.redes-sociais{
+	border-top: 2px solid gray;
+	justify-content: space-around;
+	display: flex;
+	color: #fcb627;
+}
+.redes-sociais a{
+	color: #fcb627;
+	display: inline-flex;
+	align-items: baseline;
+	text-decoration: none;
+}
+.redes-sociais .ite{
+	display: inline-flex;
+	align-items: baseline;
+	margin-top: 30px;
+}
+.redes-sociais i{
+	margin-right: 20px;
+}
+.redes-sociais p{
+	text-align: center;
+	font-size: 23px;
+	text-decoration: underline;
+}
